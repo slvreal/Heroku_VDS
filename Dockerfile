@@ -46,4 +46,4 @@ WORKDIR /Heroku
 EXPOSE 8080
 
 # Определяем команду запуска приложения
-CMD ["python3", "-m", "hikka"]
+CMD ["python3", "-m", "hikka", "--proxy-pass"]
